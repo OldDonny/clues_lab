@@ -8,7 +8,7 @@ var weapons=["bat","pencil","ruller","car","phone","nail","train","speaker","han
 function back(){
     console.log(this);
     alert( `I accuse ${this.item1} , with the ${ this.item2} in the ${this.item3}`)
-};
+}
 
 
 $(document).ready(function(){
